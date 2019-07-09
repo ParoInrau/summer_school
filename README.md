@@ -35,7 +35,9 @@ __Описание проекта__.
 
 - Параметры ответа:
 
-`product_name : status`
+`Product1 : status`
+
+`Product2 : status`
 
 
 ### Примеры
