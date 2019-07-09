@@ -30,7 +30,12 @@ __Описание проекта__.
 
 - Параметры запроса:
 
-project_id integer ID проекта
+`project_id integer ID проекта`
+
+
+- Параметры ответа:
+
+`project_id : status`
 
 Пример HTTP-запроса:
 
@@ -38,10 +43,6 @@ project_id integer ID проекта
 Headers: `
 
 `Authorization: Basic <your_authorization_basic_key> `
-
-- Параметры ответа:
-
-project_id : status
 
 Пример HTTP-ответа:
 
