@@ -21,23 +21,24 @@ __Описание проекта__.
 2. Item B
 3. Item C
 
-#Справочник API
+# Справочник API
 
-##GetProductsList_ID
+## GetProductsList_ID
 
 Данный API позволяет пользователю получить список подключенных продуктов.
 
-Параметры запроса:
+
+- Параметры запроса:
 
 project_id integer ID проекта
 
 Пример HTTP-запроса:
 
-'<GET https://api.example.com/products/{project_id} 
+'$ GET https://api.example.com/products/{project_id} 
 Headers: 
-Authorization: Basic <your_authorization_basic_key> >'
+Authorization: Basic <your_authorization_basic_key> '
 
-Параметры ответа:
+- Параметры ответа:
 
 project_id : <status>
 
