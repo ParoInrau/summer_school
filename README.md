@@ -35,16 +35,16 @@ project_id integer ID проекта
 Пример HTTP-запроса:
 
 ` GET https://api.example.com/products/{project_id} 
-Headers: 
-Authorization: Basic <your_authorization_basic_key> `
+Headers: `
+`Authorization: Basic <your_authorization_basic_key> `
 
 - Параметры ответа:
 
-project_id : <status>
+project_id : status
 
 Пример HTTP-ответа:
 
-`{
-Product1:connected, 
-Product2:disconnected
-}`
+`{`
+`Product1:connected, `
+`Product2:disconnected`
+`}`
